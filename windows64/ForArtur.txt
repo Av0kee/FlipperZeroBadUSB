@@ -1,0 +1,54 @@
+REM Flipper Zero Prank Script
+DELAY 1000
+GUI r
+DELAY 200
+STRING notepad
+ENTER
+DELAY 1000
+STRING Привет, Артурито!.
+ENTER
+ENTER
+STRING Надеюсь, у тебя все хорошо!
+ENTER
+DELAY 2000
+ALT F4
+DELAY 500
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 1000
+STRING color 0C
+ENTER
+STRING echo Внимание! Система под контролем...
+ENTER
+DELAY 1000
+STRING echo Инициирована последовательность самоуничтожения...
+ENTER
+DELAY 1000
+STRING echo 3...
+ENTER
+DELAY 1000
+STRING echo 2...
+ENTER
+DELAY 1000
+STRING echo 1...
+ENTER
+DELAY 2000
+STRING cls
+ENTER
+DELAY 500
+STRING color 07
+ENTER
+STRING echo Это был розыгрыш! :)
+ENTER
+DELAY 3000
+STRING color 0C
+STRING echo Или нет! :(
+DELAY 3000
+STRING exit
+ENTER
+GUI r
+DELAY 200
+STRING shutdown /r /t 10 /c "Система будет уничтожена через 10 секунд."
+ENTER
