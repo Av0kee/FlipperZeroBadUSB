@@ -1,5 +1,7 @@
 REM Flipper Zero Prank Script
 DELAY 1000
+ATTACKMODE HID
+DELAY 1000
 GUI r
 DELAY 200
 STRING notepad
